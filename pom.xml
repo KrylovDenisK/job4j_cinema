@@ -13,7 +13,7 @@
     <profile>
       <id>test</id>
       <properties>
-        <db.url>jdbc:postgresql://localhost:5432/dreamjob</db.url>
+        <db.url>jdbc:postgresql://localhost:5432/cinema</db.url>
         <db.username>postgres</db.username>
         <db.password>132197</db.password>
         <db.driver>org.postgresql.Driver</db.driver>
@@ -22,7 +22,7 @@
     <profile>
       <id>production</id>
       <properties>
-        <db.url>jdbc:postgresql://localhost:5432/dreamjob</db.url>
+        <db.url>jdbc:postgresql://localhost:5432/cinema</db.url>
         <db.username>postgres</db.username>
         <db.password>132197</db.password>
         <db.driver>org.postgresql.Driver</db.driver>

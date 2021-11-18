@@ -42,11 +42,11 @@
 </head>
 <body onload="load()">
 <div class="container">
-    <div class="row pt-3">
-        <h4>
+    <div class="row pt-3 fw-light">
+        <h4 class="fw-light">
             Бронирование месте на сеанс
         </h4>
-        <table class="table table-bordered">
+        <table class="table border-light table-hover table-striped">
             <thead>
             <tr>
                 <th style="width: 120px;">Ряд / Место</th>
@@ -77,8 +77,10 @@
             </tbody>
         </table>
     </div>
-    <div class="row float-right">
-        <button type="button" class="btn btn-success" onclick="sendForPayment()">Оплатить</button>
+    <div class="row">
+        <div class="col-12">
+            <button type="button" class="btn btn-success btn-lg btn-block" onclick="sendForPayment()">Оплатить</button>
+        </div>
     </div>
 </div>
 </body>

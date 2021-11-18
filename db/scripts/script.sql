@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS halls (
       row     INTEGER NOT NULL,
       place   INTEGER NOT NULL,
       price   INTEGER NOT NULL,
-      status  BOOLEAN DEFAULT TRUE,
+      status  BOOLEAN DEFAULT TRUE
     );
 
 --Пользователи
@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS accounts (
 	fio     VARCHAR (100) NOT NULL,
 	phone   VARCHAR (100) UNIQUE NOT NULL,
 	idHall  INTEGER NOT NULL,
-	FOREIGN KEY(idHall) REFERENCES halls (id) ON CASCADE
+	FOREIGN KEY (idHall) REFERENCES halls (id)
 );
 
 --Загрузка мест и цен

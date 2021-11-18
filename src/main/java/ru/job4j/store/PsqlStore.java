@@ -2,6 +2,9 @@ package ru.job4j.store;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import ru.job4j.model.Place;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

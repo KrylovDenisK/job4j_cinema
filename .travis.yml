@@ -5,7 +5,6 @@ services:
   - postgresql
 
 before_install:
-  - chmod +x mvnw
   - psql -c 'create database cinema;' -U postgres
 
 after_success:
